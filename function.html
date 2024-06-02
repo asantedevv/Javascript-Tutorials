@@ -1,21 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <h2>Demo Javascript in Body</h2>
 
     <p id="demo">A paragraph</p>
 
-    <button onclick="myFunction()" >Click Me!</button>
+    <button onclick="changeParagraph()">Click Me!</button>
+    <button onclick="reverseParagraph()">Reverse</button>
 
-    <script>
-        function myFunction() {
-            document.getElementById("demo").innerHTML = "Paragraph changed"
-        }
+    <script src="functions.js">
     </script>
 </body>
+
 </html>
